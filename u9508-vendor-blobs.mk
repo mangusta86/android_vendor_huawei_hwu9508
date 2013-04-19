@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9508/proprietary/system/bin/gpslogd:system/bin/gpslogd \
     vendor/huawei/u9508/proprietary/system/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/huawei/u9508/proprietary/system/bin/hci_dev_state:system/bin/hci_dev_state \
-    vendor/huawei/u9508/proprietary/etc/bluetooth/BCM4330.hcd:etc/bluetooth/BCM4330.hcd \
+    vendor/huawei/u9508/proprietary/system/etc/bluetooth/BCM4330.hcd:system/etc/bluetooth/BCM4330.hcd \
     vendor/huawei/u9508/proprietary/system/lib/libRedEye.so:system/lib/libRedEye.so \
     vendor/huawei/u9508/proprietary/system/lib/libril.so:system/lib/libril.so \
     vendor/huawei/u9508/proprietary/system/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
@@ -65,17 +65,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9508/proprietary/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/huawei/u9508/proprietary/system/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
     vendor/huawei/u9508/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
-    vendor/huawei/u9508/proprietary/vendor/firmware/fw_bcmdhd.bin:vendor/firmware/fw_bcmdhd.bin \
-    vendor/huawei/u9508/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/huawei/u9508/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:vendor/firmware/fw_bcmdhd_p2p.bin \
-    vendor/huawei/u9508/proprietary/vendor/firmware/fw_bcmdhd_test.bin:vendor/firmware/fw_bcmdhd_test.bin \
-    vendor/huawei/u9508/proprietary/vendor/firmware/nvram.txt:vendor/firmware/nvram.txt \
-    vendor/huawei/u9508/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/huawei/u9508/proprietary/vendor/lib/libwvdrm_L3.so:vendor/lib/libwvdrm_L3.so \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin \
-    vendor/huawei/u9508/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
+    vendor/huawei/u9508/proprietary/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/firmware/fw_bcmdhd_test.bin:system/vendor/firmware/fw_bcmdhd_test.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/firmware/nvram.txt:system/vendor/firmware/nvram.txt \
+    vendor/huawei/u9508/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/huawei/u9508/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin \
+    vendor/huawei/u9508/proprietary/system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
