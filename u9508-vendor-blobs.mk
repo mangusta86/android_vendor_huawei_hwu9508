@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u9508/proprietary/system/lib/lib_k3_omx_vc1.so:system/lib/lib_k3_omx_vc1.so \
     vendor/huawei/u9508/proprietary/system/lib/lib_k3_omx_vp8.so:system/lib/lib_k3_omx_vp8.so \
     vendor/huawei/u9508/proprietary/system/lib/lib_k3_omxcore.so:system/lib/lib_k3_omxcore.so \
+    vendor/huawei/u9508/proprietary/system/lib/libGAL.so:system/lib/libGAL.so \
+    vendor/huawei/u9508/proprietary/system/lib/libGLSLC.so:system/lib/libGLSLC.so \
+    vendor/huawei/u9508/proprietary/system/lib/libdolbyaudioeffectnativeservice.so:system/lib/libdolbyaudioeffectnativeservice.so \
+    vendor/huawei/u9508/proprietary/system/lib/libdolbymobileaudioeffect_jni.so:system/lib/libdolbymobileaudioeffect_jni.so \
     vendor/huawei/u9508/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/huawei/u9508/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/huawei/u9508/proprietary/system/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.k3v2oem1.so \
