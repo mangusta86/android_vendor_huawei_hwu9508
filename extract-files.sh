@@ -60,7 +60,7 @@ for FILE in `cat $COMMONPROPS | grep -v ^# | grep -v ^$`; do
     if [ $COUNT = "0" ]; then
         LINEEND=""
     fi
-    echo "    $DEVICEBASE/$FILE:system/$FILE$LINEEND" >> $DEVICEMAKEFILE
+    echo "    $DEVICEBASE/$FILE:$FILE$LINEEND" >> $DEVICEMAKEFILE
 done
 
 (cat << EOF) > $DEVICE-vendor.mk
