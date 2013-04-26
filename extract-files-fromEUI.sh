@@ -19,17 +19,18 @@ DEVICE=u9508
 DEVICEBASE=proprietary
 DEVICEMAKEFILE=$DEVICE-vendor-blobs.mk
 COMMONPROPS=proprietary-files.txt
+EUIFOLDER=/home/marco/toolchain/Hiui
 
-adb root
-adb wait-for-device
+#adb root
+#adb wait-for-device
 
-echo "Pulling device specific files..."
+echo "Copying device specific files from EUI..."
 for FILE in `cat $COMMONPROPS | grep -v ^# | grep -v ^$`; do
     DIR=`dirname $FILE`
     if [ ! -d $DEVICEBASE/$DIR ]; then
         mkdir -p $DEVICEBASE/$DIR
     fi
-    adb pull /$FILE $DEVICEBASE/$FILE
+    cp $EUIFOLDER/$FILE $DEVICEBASE/$FILE
 done
 
 
@@ -62,7 +63,7 @@ for FILE in `cat $COMMONPROPS | grep -v ^# | grep -v ^$`; do
     if [ $COUNT = "0" ]; then
         LINEEND=""
     fi
-    echo "    "\$"(LOCAL_PATH)$DEVICEBASE/$FILE:$FILE$LINEEND" >> $DEVICEMAKEFILE
+    echo "    "\$"(LOCAL_PATH)/$DEVICEBASE/$FILE:$FILE$LINEEND" >> $DEVICEMAKEFILE
 done
 
 (cat << EOF) > $DEVICE-vendor.mk
