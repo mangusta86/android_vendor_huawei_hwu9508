@@ -20,4 +20,38 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libGAL.so:system/lib/libGAL.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so
+    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.huawei.so:system/lib/hw/gralloc.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.huawei.so:system/lib/hw/copybit.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.huawei.so:system/lib/hw/hwcomposer.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.k3v2oem1.so:system/lib/hw/audio_policy.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/soundfx/libdolbymobileeffect.so:system/lib/soundfx/libdolbymobileeffect.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd_test.bin:system/vendor/firmware/fw_bcmdhd_test.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/firmware/nvram.txt:system/vendor/firmware/nvram.txt \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.k3v2oem1.so:system/lib/hw/camera.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.k3v2oem1.so:system/lib/hw/gps.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/libbcmfm_if.so:system/lib/hw/libbcmfm_if.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.k3v2oem1.so:system/lib/hw/sensors.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libnve.so:system/lib/libnve.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo.so:system/lib/liboeminfo.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liboeminfo_public_interface.so:system/lib/liboeminfo_public_interface.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libchip_management.so:system/lib/libchip_management.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbluedroid.so:system/lib/libbluedroid.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libchip_state.so:system/lib/libchip_state.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin \
+    $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
