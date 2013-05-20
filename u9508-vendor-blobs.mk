@@ -24,6 +24,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.huawei.so:system/lib/hw/gralloc.huawei.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.huawei.so:system/lib/hw/copybit.huawei.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.huawei.so:system/lib/hw/hwcomposer.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libimageinfo.so:system/lib/libimageinfo.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liboverlay.so:system/lib/liboverlay.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.k3v2oem1.so \
