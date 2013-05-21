@@ -39,6 +39,11 @@ system/lib/libbluedroid.so
 system/lib/libchip_state.so
 system/lib/libifdsmartcardapi.so
 
+#rild
+system/lib/libxgold-ril.so
+system/lib/libril.so
+system/bin/rild
+
 #vendor blob
 system/vendor/lib/libWVStreamControlAPI_L3.so
 system/vendor/lib/libwvdrm_L3.so

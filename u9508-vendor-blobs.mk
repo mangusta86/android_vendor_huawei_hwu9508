@@ -48,6 +48,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libbluedroid.so:system/lib/libbluedroid.so \
     $(LOCAL_PATH)/proprietary/system/lib/libchip_state.so:system/lib/libchip_state.so \
     $(LOCAL_PATH)/proprietary/system/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     $(LOCAL_PATH)/proprietary/system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
