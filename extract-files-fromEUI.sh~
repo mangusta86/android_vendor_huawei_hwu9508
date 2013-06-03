@@ -19,7 +19,7 @@ DEVICE=u9508
 DEVICEBASE=proprietary
 DEVICEMAKEFILE=$DEVICE-vendor-blobs.mk
 COMMONPROPS=proprietary-files.txt
-EUIFOLDER=/home/marco/Desktop/B630-update
+EUIFOLDER=/home/marco/toolchain/Hiui
 
 #adb root
 #adb wait-for-device

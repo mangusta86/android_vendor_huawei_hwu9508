@@ -42,6 +42,7 @@ system/lib/libifdsmartcardapi.so
 #rild
 system/lib/libxgold-ril.so
 system/lib/libril.so
+system/lib/libhuawei-audio-ril.so
 system/bin/rild
 
 #vendor blob
