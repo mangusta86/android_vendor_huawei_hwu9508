@@ -23,14 +23,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.huawei.so:system/lib/hw/gralloc.huawei.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.huawei.so:system/lib/hw/copybit.huawei.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.huawei.so:system/lib/hw/hwcomposer.huawei.so \
     $(LOCAL_PATH)/proprietary/system/lib/libimageinfo.so:system/lib/libimageinfo.so \
     $(LOCAL_PATH)/proprietary/system/lib/liboverlay.so:system/lib/liboverlay.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libvpp.so:system/lib/libvpp.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.huawei.so:system/lib/hw/hwcomposer.huawei.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
+    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.k3v2oem1.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.k3v2oem1.so:system/lib/hw/audio_policy.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/soundfx/libdolbymobileeffect.so:system/lib/soundfx/libdolbymobileeffect.so \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
@@ -49,9 +49,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libbluedroid.so:system/lib/libbluedroid.so \
     $(LOCAL_PATH)/proprietary/system/lib/libchip_state.so:system/lib/libchip_state.so \
     $(LOCAL_PATH)/proprietary/system/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
-    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so
