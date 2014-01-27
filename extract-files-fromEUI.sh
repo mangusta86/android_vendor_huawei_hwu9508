@@ -15,11 +15,11 @@
 # limitations under the License.
 
 VENDOR=huawei
-DEVICE=u9508
+DEVICE=hwu9508
 DEVICEBASE=proprietary
 DEVICEMAKEFILE=$DEVICE-vendor-blobs.mk
 COMMONPROPS=proprietary-files.txt
-EUIFOLDER=/home/marco/Desktop/B630-update
+EUIFOLDER=/home/marco/Scrivania/EUI
 
 #adb root
 #adb wait-for-device

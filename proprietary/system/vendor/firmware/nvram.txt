@@ -48,7 +48,5 @@ txgaintbl=1
 pacalath2g=180
 pacalidx2g1=55
 btc_params80=0
-btc_params33=0x3
-btc_params61=0x2
 #pacalpwr2g=13
 
