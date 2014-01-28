@@ -1,1 +1,6 @@
-Run extract-files.sh from vendor/$VENDOR/$DEVICE in order to extract the necessaries files.
+In order to recreate updated proprietary files we have 2 ways:
+
+1) from mobile phone connected via adb (you need to have android platform tools in your PATH)
+
+2) extract files from EUI (remember to set the right folder inside the script. ex: EUIFOLDER=/home/marco/Scrivania/EUI).
+
