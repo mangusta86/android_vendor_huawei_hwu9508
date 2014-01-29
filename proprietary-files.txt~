@@ -31,7 +31,6 @@ system/vendor/firmware/fw_bcmdhd_apsta.bin
 system/vendor/firmware/fw_bcmdhd_p2p.bin
 system/vendor/firmware/fw_bcmdhd_test.bin
 system/vendor/firmware/nvram.txt
-system/vendor/firmware/BCM4330.hcd
 
 #Board sensors
 system/lib/hw/camera.k3v2oem1.so
@@ -48,8 +47,5 @@ system/lib/libifdsmartcardapi.so
 
 
 #vendor blob
-system/isp.bin
-system/ons.bin
-
 system/vendor/lib/libWVStreamControlAPI_L3.so
 system/vendor/lib/libwvdrm_L3.so
