@@ -19,7 +19,7 @@ DEVICE=hwu9508
 DEVICEBASE=proprietary
 DEVICEMAKEFILE=$DEVICE-vendor-blobs.mk
 COMMONPROPS=proprietary-files.txt
-EUIFOLDER=/home/marco/Scrivania/EUI
+EUIFOLDER=/home/marco/Scrivania/EUI4.4
 
 #adb root
 #adb wait-for-device
