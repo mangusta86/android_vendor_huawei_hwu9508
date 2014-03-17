@@ -15,11 +15,11 @@
 # limitations under the License.
 
 VENDOR=huawei
-DEVICE=hwu9508
+DEVICE=u9508
 DEVICEBASE=proprietary
 DEVICEMAKEFILE=$DEVICE-vendor-blobs.mk
 COMMONPROPS=proprietary-files.txt
-EUIFOLDER=/home/marco/Scrivania/EUI
+EUIFOLDER=/home/marco/Huawei_DEV/B708
 
 #adb root
 #adb wait-for-device
@@ -51,7 +51,7 @@ done
 
 # This file is script-generated 
 
-LOCAL_PATH := vendor/huawei/hwu9508
+LOCAL_PATH := vendor/huawei/u9508
 
 PRODUCT_COPY_FILES += \\
 EOF
