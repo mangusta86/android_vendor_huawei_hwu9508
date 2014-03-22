@@ -18,7 +18,6 @@ LOCAL_PATH := vendor/huawei/u9508
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
-    $(LOCAL_PATH)/proprietary/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.k3v2oem1.so:system/lib/hw/camera.k3v2oem1.so \
@@ -27,6 +26,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.k3v2oem1.so:system/lib/hw/gralloc.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.k3v2oem1.so:system/lib/hw/hwcomposer.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.k3v2oem1.so:system/lib/hw/sensors.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
     $(LOCAL_PATH)/proprietary/system/lib/libGAL.so:system/lib/libGAL.so \
     $(LOCAL_PATH)/proprietary/system/lib/libGLSLC.so:system/lib/libGLSLC.so \
     $(LOCAL_PATH)/proprietary/system/lib/libMirrorAudioService.so:system/lib/libMirrorAudioService.so \
