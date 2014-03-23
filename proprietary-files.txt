@@ -12,6 +12,7 @@ system/lib/hw/gralloc.k3v2oem1.so
 system/lib/hw/hwcomposer.k3v2oem1.so
 system/lib/hw/sensors.k3v2oem1.so
 
+system/lib/libmedia.so
 system/lib/libgui.so
 system/lib/libGAL.so
 system/lib/libGLSLC.so
@@ -51,6 +52,9 @@ system/lib/libwvm.so
 
 #rild
 system/lib/libril.so
+system/lib/libxgold-ril.so
+system/lib/libhuawei-audio-ril.so
+system/bin/rild
 
 #WIFI
 system/vendor/firmware/fw_bcmdhd.bin

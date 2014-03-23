@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.k3v2oem1.so:system/lib/hw/gralloc.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.k3v2oem1.so:system/lib/hw/hwcomposer.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.k3v2oem1.so:system/lib/hw/sensors.k3v2oem1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmedia.so:system/lib/libmedia.so \
     $(LOCAL_PATH)/proprietary/system/lib/libgui.so:system/lib/libgui.so \
     $(LOCAL_PATH)/proprietary/system/lib/libGAL.so:system/lib/libGAL.so \
     $(LOCAL_PATH)/proprietary/system/lib/libGLSLC.so:system/lib/libGLSLC.so \
@@ -62,6 +63,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libvpp.so:system/lib/libvpp.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwvm.so:system/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
+    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
