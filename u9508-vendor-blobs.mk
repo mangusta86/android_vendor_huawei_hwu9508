@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libRedEye.so:system/lib/libRedEye.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_8290.so:system/lib/lib_8290.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_g1.so:system/lib/lib_g1.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libk3jpeg.so:system/lib/libk3jpeg.so \
+    $(LOCAL_PATH)/proprietary/system/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_avc.so:system/lib/lib_k3_omx_avc.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_avcenc.so:system/lib/lib_k3_omx_avcenc.so \
     $(LOCAL_PATH)/proprietary/system/lib/lib_k3_omx_mpeg2.so:system/lib/lib_k3_omx_mpeg2.so \
