@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.k3v2oem1.so:system/lib/hw/camera.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.k3v2oem1.so:system/lib/hw/gps.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.k3v2oem1.so:system/lib/hw/copybit.k3v2oem1.so \
@@ -64,6 +63,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libui.so:system/lib/libui.so \
     $(LOCAL_PATH)/proprietary/system/lib/libvpp.so:system/lib/libvpp.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwvm.so:system/lib/libwvm.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
@@ -105,5 +105,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/wl:system/bin/wl \
     $(LOCAL_PATH)/proprietary/system/isp.bin:system/isp.bin \
     $(LOCAL_PATH)/proprietary/system/ons.bin:system/ons.bin \
-    $(LOCAL_PATH)/proprietary/system/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    $(LOCAL_PATH)/proprietary/system/framework/hwframework.jar:system/framework/hwframework.jar
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so
