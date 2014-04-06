@@ -20,6 +20,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv1_CM_VIVANTE.so:system/lib/egl/libGLESv1_CM_VIVANTE.so \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_VIVANTE.so:system/lib/egl/libGLESv2_VIVANTE.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.k3v2oem1.so:system/lib/hw/audio.primary.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.k3v2oem1.so:system/lib/hw/camera.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.k3v2oem1.so:system/lib/hw/gps.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/copybit.k3v2oem1.so:system/lib/hw/copybit.k3v2oem1.so \

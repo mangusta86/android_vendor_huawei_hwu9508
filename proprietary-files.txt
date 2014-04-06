@@ -4,7 +4,10 @@ system/lib/egl/libGLESv1_CM_VIVANTE.so
 system/lib/egl/libGLESv2_VIVANTE.so
 
 #hw
-#system/lib/hw/audio.primary.k3v2oem1.so
+system/lib/hw/audio.a2dp.default.so
+system/lib/hw/audio_policy.default.so
+system/lib/hw/audio.primary.default.so
+system/lib/hw/audio.primary.k3v2oem1.so
 system/lib/hw/camera.k3v2oem1.so
 system/lib/hw/gps.k3v2oem1.so
 system/lib/hw/copybit.k3v2oem1.so
@@ -32,6 +35,7 @@ system/lib/lib_k3_omx_vc1.so
 system/lib/lib_k3_omx_vp8.so
 system/lib/lib_k3_omxcore.so
 
+system/lib/libaudio-resampler.so
 system/lib/libaudioflinger.so
 system/lib/libcamera_core.so
 system/lib/libcamera_scalado.so
