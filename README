@@ -1,6 +1,5 @@
+This are the vendor files for compiling CM-10.1 with nearly all hw libraries from Huawei (just liblight coded)
+
 In order to recreate updated proprietary files we have 2 ways:
-
-1) from mobile phone connected via adb (you need to have android platform tools in your PATH)
-
-2) extract files from EUI (remember to set the right folder inside the script. ex: EUIFOLDER=/home/marco/Scrivania/EUI).
-
+1) from mobile phone connected via adb (you need to have android-sdk platform-tools in your PATH)
+2) extract files from EmotionUI ROM (remember to set the right folder inside the script. ex: EUIFOLDER=/path_to_your_ROM_system_folder).
