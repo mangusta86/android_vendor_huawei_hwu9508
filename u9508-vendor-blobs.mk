@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libcamera_scalado.so:system/lib/libcamera_scalado.so \
     $(LOCAL_PATH)/proprietary/system/lib/libimageinfo.so:system/lib/libimageinfo.so \
     $(LOCAL_PATH)/proprietary/system/lib/libgnuexif.so:system/lib/libgnuexif.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libskia.so:system/lib/libskia.so \
     $(LOCAL_PATH)/proprietary/system/lib/libhelixplayer.so:system/lib/libhelixplayer.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.k3v2oem1.so:system/lib/hw/sensors.k3v2oem1.so \
     $(LOCAL_PATH)/proprietary/system/bin/akm8975:system/bin/akm8975 \
